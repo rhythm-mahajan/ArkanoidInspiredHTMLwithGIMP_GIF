@@ -1,0 +1,23 @@
+#gameCanvas {
+    border: thin solid #000;
+    background-image: url("../images/background.gif");
+}
+.gradient-text {
+    background-color: #1fa2ff;
+    background-image: linear-gradient(to right, #164e2d, #2f9e4b, #165888);
+    background-size:100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+body{
+    max-width: 480px;
+    max-height: 100%;
+    margin: auto;  
+    background-image: linear-gradient(to right, #d1a9a9, #d36363, #d62424);  
+}
+p{
+    font-size: 17px;
+    font-weight: bold;
+}
